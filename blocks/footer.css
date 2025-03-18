@@ -1,0 +1,21 @@
+.footer {
+  background-color:#fcf5ee;
+  padding: 60px 0;
+  font-size: 14px;
+
+}
+
+
+.footer__signature {
+  font-size: 14px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(33, 33, 33, 0.7);
+  margin: 0 0 20px 0;
+
+}
