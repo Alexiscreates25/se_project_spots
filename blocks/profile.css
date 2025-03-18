@@ -18,7 +18,7 @@
 
 }
 
-.profile__column-name {
+.profile__name {
   display: flex;
   flex-direction: column;
   margin-right: 20px;
@@ -35,7 +35,7 @@
 
 }
 
-.profile__column-description {
+.profile__description {
   font-family: "Poppins-Medium", Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -102,13 +102,13 @@
   width: 80px;
 }
 
-.profile__column-name {
+.profile__name {
   font-size: 20px;
   margin: 0 0 6px;
   max-width: 288px;
 }
 
-.profile__column-description {
+.profile__description {
   margin:  0 0 32px;
 
 }
