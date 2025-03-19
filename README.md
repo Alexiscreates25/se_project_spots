@@ -31,9 +31,8 @@ An image sharing site with your own personal profile, showcasing the the most li
 
 # Github Page Link
 
-https://alexiscreates25.github.io/se_project_spots/index.html
+https://alexiscreates25.github.io/se_project_spots/
 
 # Google Drive Link
 
 https://drive.google.com/file/d/1DF-49zse8VQCPmYu5BE-YCqxERUK9kUC/view?usp=sharing
-
