@@ -1,5 +1,5 @@
 .card {
-  background-color: #fcf5ee;
+  background-color: transparent;
 }
 
 
@@ -19,25 +19,29 @@ justify-content: space-between;
 
 .card__like-btn {
   background-image: url(../images/Heart.svg);
+  cursor: pointer;
   width: 23px;
   height: 20px;
   border: none;
   background-color: transparent;
   opacity: 40%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .card__like-btn:hover {
   opacity: 100%;
- color:  rgba(33, 33, 33, 1);
+
 }
+
+/* on .card__title fix font size  */
 
 .card__title {
   font-family: "Poppins", Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
-  color: rgba(33, 33, 33, 1);
+  margin: 0;
   line-height: 120%;
-  letter-spacing: 0%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -45,13 +49,24 @@ justify-content: space-between;
 
 @media screen and (max-width: 627px) {
 
+  .card__like-btn {
+    width: 20px;
+    height: 18px;
+  }
+  
   .card__image {
     height: 288px;
     width: 288px;
 
   }
 
+  /* Fix the selector below */
   .card__content {
-    padding: 0 16px;
+    padding: 0;
+  }
+
+  .card__title {
+    font-size: 16px;
+    line-height: 125%;
   }
 }
