@@ -41,10 +41,10 @@
   white-space: nowrap;
   overflow: hidden;
   color: #212121;
-  max-width: 353px;
+  max-width: 413px;
 }
 
-@media screen and (max-width: 627px) {
+@media screen and (max-width: 670px) {
   .card__like-btn {
     width: 20px;
     height: 18px;
@@ -63,6 +63,6 @@
   .card__title {
     font-size: 16px;
     line-height: 100%;
-    max-width: 150px;
+    max-width: 288px;
   }
 }
