@@ -8,7 +8,7 @@
   height: 190px;
   width: 190px;
   border-radius: 8px;
-  padding-bottom: 12px;
+
 }
 
 .profile__column {
@@ -95,6 +95,7 @@
   .profile__avatar {
     height: 80px;
     width: 80px;
+    padding-bottom: 12px;
   }
 
   .profile__edit-btn {
