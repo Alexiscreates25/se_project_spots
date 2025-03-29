@@ -1,11 +1,19 @@
 .page {
   background-color: #fcf5e5;
   min-height: 100vh;
+<<<<<<< HEAD
   height: 26px;
 
+=======
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+>>>>>>> 5cc8b2aaf2ccd27834ae60e477044f754bde6eac
 }
 
 .page__section {
   max-width: 1280px;
   margin: 0 auto;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5cc8b2aaf2ccd27834ae60e477044f754bde6eac

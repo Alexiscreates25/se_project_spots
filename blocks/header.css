@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 .header {
   background-color: ffff;
+=======
+.page__header {
+  background-color: #fff;
+>>>>>>> 5cc8b2aaf2ccd27834ae60e477044f754bde6eac
   padding: 10px 0;
   display: flex;
   justify-content: center;
@@ -9,4 +14,8 @@
   margin: 0 auto;
   height: 26px;
   width: 96px;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 5cc8b2aaf2ccd27834ae60e477044f754bde6eac

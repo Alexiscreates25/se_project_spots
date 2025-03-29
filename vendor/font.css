@@ -3,4 +3,14 @@
   font-style: normal;
   font-weight: 400;
   src: url("./fonts/Poppins-Regular.ttf") format("truetype");
+<<<<<<< HEAD
+=======
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/Poppins-Medium.ttf") format("truetype");
+>>>>>>> 5cc8b2aaf2ccd27834ae60e477044f754bde6eac
 }
