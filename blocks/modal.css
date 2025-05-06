@@ -1,0 +1,114 @@
+.modal {
+  visibility: hidden;
+  background-color: #00000000;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.modal_is-opened {
+  visibility: visible;
+
+}
+
+.modal__container {
+  max-width: 730px;
+  max-height: 408px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  padding: 32px 50px;
+  position: relative;
+  gap: 32px;
+}
+
+.modal__close-btn {
+  position: absolute;
+  top: 32px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  opacity: 40%;
+  border-color: #212121;
+  border: 0;
+  background-color: #FFFFFF;
+}
+
+.modal__title {
+  margin: 0 0 32px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+  color: #212121;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__label {
+  margin: 0 0 32px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 110.00000000000001%;
+  opacity: 40%;
+  border: 1px;
+  color: #212121;
+  opacity: 70%;
+
+}
+
+.modal__input {
+  display: block;
+  margin: 8px 0 0;
+  width: 630px;
+  gap: 8px;
+  padding: 16px 12px;
+  color: #212121;
+  opacity: 30%;
+  border-radius: 8px;
+  gap: 10px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+
+  /* TODO - add close button make sure it looks right */
+}
+
+.modal__input::placeholder {
+  color: #212121;
+  opacity: 30%;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+
+
+}
+
+.modal__submit-btn {
+  max-width: 156px;
+  border-radius: 8px;
+  background-color: #212121;
+  width: 156px;
+  height: 52px;
+  padding: 18px 32px;
+  gap: 8px;
+  color: #FCF5E5;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  /* TODO-- Remove max wwidth in media querie */
+}
