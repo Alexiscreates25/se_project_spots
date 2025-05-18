@@ -1,8 +1,6 @@
-const editProfileButton =
-  document.querySelector(".profile__edit-btn"); /* PARENT */
+const editProfileButton = document.querySelector(".profile__edit-btn"); /* PARENT */
 const editProfileModal = document.querySelector("#edit-profile-modal");
-const editProfileCloseButton =
-  editProfileModal.querySelector(".modal__close-btn");
+const editProfileCloseButton = editProfileModal.querySelector(".modal__close-btn");
 
 const newPostButton = document.querySelector(".profile__add-btn");
 const newPostModal = document.querySelector("#new-post-modal");
